@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.bg{
+    background-color: #172239;
+}
+
+a{
+    font-weight: bold;
+}
+
+.ff{
+    font-family: "Dancing Script", cursive;
+}
+
+.fs{
+    margin-right: 25px;
+    color: #fff;
+}
+
+.fs:hover{
+    color: #FFC107;
+}
+
+img{
+    height: 92vh;
+}
+
+/* Carousel */
+
+.carousel-item{
+    width: 100%;
+    height: 92vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* .carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+} */
+
+.carousel-caption{
+    bottom: 280px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
+
+.btn{
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #2c2323;
+}
+
+.text{
+    font-family: sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.hr{
+    margin-top: -40px;
+    margin-bottom: 60px;
+    width: 100px;
+    height: 10px;
+    border-radius: 3px;
+    margin-left: 590px;
+}
+
+em{
+    font-style: normal;
+}
+
+.tt{
+    color: #9d9d9d;
+}
+
+.dd{
+    color: #7d7a7a;
+}
+
+.wa{
+    margin-right: 60px;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.div1{
+    padding:0px 300px ;
+}
+
+.small{
+    color: #fff;
+    text-align: center;
+}
+
+.br{
+    padding: 10px 7px;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+    color: #430707;
+    background-color: #ffffff76;
+}
+
+.mt{
+    margin-bottom: 200px;
+    color: #ded1d1e7;
+}
+
+.bg-img{
+    background: linear-gradient(#00000073, #00000073), url(image/contact.jpg);
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
